@@ -21,6 +21,11 @@ const corsOptions = {
 dbConnection();
 
 
+app.get("/lala",()=>{
+    console.log("kittyyyy")
+})
+
+
 app.use(cors(corsOptions))
 app.use(express.json())
 app.use('/auth',authRouter)

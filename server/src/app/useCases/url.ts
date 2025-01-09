@@ -20,7 +20,7 @@ export class UrlService {
           }
       
           const urlCode = shortid.generate();
-          const shortUrl = `http://localhost:4000/${urlCode}`;
+          const shortUrl = `https://url-shortener-eurt.onrender.com/${urlCode}`;
 
           const newUrl = {
             originalUrl: url,
