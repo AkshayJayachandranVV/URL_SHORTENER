@@ -23,7 +23,7 @@ const schema = yup.object({
     .required("Please confirm your password."),
 });
 
-const ResetPassword: React.FC = () => {
+const NewPassword: React.FC = () => {
   const {
     register,
     handleSubmit,
@@ -133,4 +133,4 @@ const ResetPassword: React.FC = () => {
   );
 };
 
-export default ResetPassword;
+export default NewPassword;

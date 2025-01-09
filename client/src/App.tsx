@@ -4,7 +4,7 @@ import Signup from "./components/auth/Signup";
 import Otp from "./components/auth/Otp";
 import Home from "./components/Home/Home";
 import ForgotPassword from "./components/auth/ForgotPassword";
-import NewPassword from "./components/auth/newPassword";
+import NewPassword from "./components/auth/NewPassword";
 import PrivateRoute from "./routes/privateRoute";
 import PublicRoute from "./routes/publicRoute";
 

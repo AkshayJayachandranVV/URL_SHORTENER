@@ -4,7 +4,6 @@ import axiosInstance from '../../constraints/axios/userAxios';
 
 const HOME = () => {
   const [url, setUrl] = useState('');
-  const [error, setError] = useState<string>('');
   const [shortenedUrl, setShortenedUrl] = useState('');
 
 
@@ -25,7 +24,6 @@ const HOME = () => {
         )
     } catch (error) {
       console.error('Error shortening URL:', error);
-      setError('An error occurred while shortening the URL. Please try again later.');
     }
   };
 
